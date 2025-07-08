@@ -1,0 +1,51 @@
+@"
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment Variables
+.env
+.env.local
+config_local.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Distribution
+dist/
+build/
+*.egg-info/
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
+# End of .gitignore
+# This .gitignore file is designed to ignore common files and directories
+# that should not be tracked in a Python project, including virtual environments,
+# Python bytecode files, IDE configurations, OS-specific files, logs, and testing artifacts.
+# It also includes a section for environment variables, which should not be committed
+# to version control for security reasons.
+# Make sure to customize the .env.example file with your actual environment variables
+# and keep it in sync with your project's requirements.
